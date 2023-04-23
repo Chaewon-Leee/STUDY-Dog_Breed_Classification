@@ -17,9 +17,7 @@
 - **실행**
 
   - 실행 전, 다음과 같은 양식으로 `slack.json` 제작 필요
-    - 작성자의 경우, slack으로 결과값을 전송하였지만, 다른 tool 사용시 `send_slack.py` & `slack_messenger.py` 삭제
     ```json
-    // slack.json
     {
       "Slack": {
         "WEB_HOOK_URL": "WEB_HOOK_URL",
@@ -28,6 +26,7 @@
       }
     }
     ```
+    - 작성자의 경우, slack으로 결과값을 전송하였지만, 다른 tool 사용시 `send_slack.py` & `slack_messenger.py` 삭제
 
   - `train.py` 실행
   ```python
